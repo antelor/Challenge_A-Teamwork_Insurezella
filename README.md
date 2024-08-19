@@ -7,11 +7,13 @@ Vite 5.4.1
 CSS
 
 Paso a paso:
-Lo primero que hice fue crear un proyecto base con Vite. Luego decidi comenzar por la navbar. En este proyecto utilice un criterio mobile-first. Es decir, elegi primero hacer todo el CSS teniendo en cuenta la referencia del mobil, para luego hacer el desktop utilizando media queries.
+Lo primero que hice fue crear un proyecto base con Vite. Decidi dividir el diseño en distintas secciones y trabajarlas por separado, cada una en su propio componente de React. Asi fui trabajando un primer boceto de todas las partes.
 
-![Navbar](readme-imgs/image.png)
+Decidi comenzar por la navbar. En este proyecto utilice un criterio mobile-first. Es decir, elegi primero hacer todo el CSS teniendo en cuenta la referencia del mobil, para luego hacer el desktop utilizando media queries.
 
-Mi idea en este punto no es hacer una implementacion pixel perfect, sino una aproximacion de todas las secciones para despues encarar los detalles mas finos.
+![Navbar](readme-imgs/navbar.png)
 
-![Find plans sections](image.png)
+Mi idea en este punto no era hacer una implementacion pixel perfect, sino una aproximacion de todas las secciones para despues encarar los detalles mas finos.
+
+![Find plans sections](findPlans.png)
 
