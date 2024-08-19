@@ -1,17 +1,12 @@
-import './App.css'
+import './styles/App.css';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <div className='site-content'>
-      <nav>
-        <span>logo</span>
-        <span>Want to connect with us?</span>
-        <span>Mail us: support@insurezella.com</span>
-        <span>Call us: (877) 227 0774</span>
-      </nav>
+      <Header/>
       
-      <div>test</div>
     </div>
   )
 }

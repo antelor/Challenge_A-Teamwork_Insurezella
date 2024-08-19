@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #6475ed;
+    align-items: center;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    overflow: visible;
+    height: 3rem;
+}
+
+.logo{
+    height: 75px;
+    align-self: baseline;
+}
+
+.hambIcon{
+    height: 20px;
+}
+
+.connect{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.contact{
+    font-size: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.contact > .mail{
+    display: flex;
+}
+
+.contact > .call{
+    display: flex;
+    margin-left: 5px;
+}
+
+.contact img{
+    height: 5px;
+}

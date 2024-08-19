@@ -15,11 +15,3 @@ html, body, #root{
   width: 100%;
 }
 
-
-nav{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: blue;
-}
-
