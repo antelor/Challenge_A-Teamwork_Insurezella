@@ -12,3 +12,6 @@ Lo primero que hice fue crear un proyecto base con Vite. Luego decidi comenzar p
 ![Navbar](readme-imgs/image.png)
 
 Mi idea en este punto no es hacer una implementacion pixel perfect, sino una aproximacion de todas las secciones para despues encarar los detalles mas finos.
+
+![Find plans sections](image.png)
+
