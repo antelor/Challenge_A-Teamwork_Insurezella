@@ -2,8 +2,8 @@
 
 Tecnologias utilizadas:
 Javascript
-React
-Vite
+React 18.3.1
+Vite 5.4.1
 CSS
 
 Paso a paso:

@@ -33,11 +33,13 @@ nav{
 
 .contact > .mail{
     display: flex;
+    gap: 1px;
 }
 
 .contact > .call{
     display: flex;
     margin-left: 5px;
+    gap: 1px;
 }
 
 .contact img{
