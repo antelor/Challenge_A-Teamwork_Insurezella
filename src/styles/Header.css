@@ -13,6 +13,7 @@ nav{
 .logo{
     height: 75px;
     align-self: baseline;
+    z-index: 2;
 }
 
 .hambIcon{

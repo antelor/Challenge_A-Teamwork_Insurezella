@@ -15,3 +15,13 @@ html, body, #root{
   width: 100%;
 }
 
+.siteContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Global styles*/
+.desc{
+  color: rgba(0, 0, 0, 0.5);
+}
