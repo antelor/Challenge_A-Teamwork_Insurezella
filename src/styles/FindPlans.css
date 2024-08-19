@@ -1,0 +1,45 @@
+.FindPlans{
+    color: black;
+    background-color: #E5E0E4;
+    display: flex;
+    flex-direction: column;
+
+    height: max-content;
+    background-image: url('../assets/hero-bg.jpg');
+    background-position-x: 130px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+}
+
+.leftSection{
+    padding: 4rem 0 4rem 2rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.title{
+    color: blue;
+    font-weight: bold;
+}
+
+.desc{
+    font-weight: lighter;
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.leftSection button{
+    width: fit-content;
+    border-radius:25px;
+    background-color: #63beff;
+    border: none;
+	cursor:pointer;
+	color:#ffffff;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.7rem;
+    font-weight: 900;
+}
