@@ -15,5 +15,5 @@ Decidi comenzar por la navbar. En este proyecto utilice un criterio mobile-first
 
 Mi idea en este punto no era hacer una implementacion pixel perfect, sino una aproximacion de todas las secciones para despues encarar los detalles mas finos.
 
-![Find plans sections](findPlans.png)
+![Find plans sections](readme-imgs/findPlans.png)
 
