@@ -5,6 +5,7 @@ import About from './components/About';
 import Types from './components/Types';
 import LearnMore from './components/LearnMore';
 import Help from './components/Help';
+import FooterMobile from './components/FooterMobile';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Types />
       <LearnMore />
       <Help />
+      <FooterMobile />
     </div>
   )
 }

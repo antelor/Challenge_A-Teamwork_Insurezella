@@ -17,3 +17,4 @@ Mi idea en este punto no era hacer una implementacion pixel perfect, sino una ap
 
 ![Find plans sections](readme-imgs/findPlans.png)
 
+En el caso del footer, decidi para la vista mobile dividirlo en 2 secciones, por lo que cree un componente dedicado llamado FooterMobile.
