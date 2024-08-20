@@ -1,0 +1,39 @@
+.Help{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.helpCard img{
+    width: 100%;
+}
+
+.helpCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.helpCardText{
+    padding: 0.8rem;
+}
+
+.desc{
+    margin-top: 0.5rem;
+}
+
+.helpCardLink{
+    padding: 0.8rem;
+    color: blue;
+    font-size: 0.7rem;
+}

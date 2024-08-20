@@ -11,7 +11,7 @@ function Types() {
 
   return (
     <div className='Types'>
-        <div className='title'>Pick the insurance that suits your needs.</div>
+        <div className='typesTitle'>Pick the insurance that suits your needs.</div>
         <div className='typesGrid'>
             {/*moved the typecards to a separate component for readability*/}
             <TypeCard cardImg={healthInsurance} cardTitle='Health insurance' />
