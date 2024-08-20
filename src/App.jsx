@@ -1,7 +1,8 @@
 import './styles/App.css';
 import Header from './components/Header';
 import FindPlans from './components/FindPlans';
-import About from './components/About.jsx';
+import About from './components/About';
+import Types from './components/Types'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <FindPlans />
       <About />
+      <Types />
     </div>
   )
 }
