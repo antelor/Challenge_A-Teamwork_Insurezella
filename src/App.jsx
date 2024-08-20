@@ -6,6 +6,7 @@ import Types from './components/Types';
 import LearnMore from './components/LearnMore';
 import Help from './components/Help';
 import FooterMobile from './components/FooterMobile';
+import threeDots from './assets/three-dots-blue-20979.png'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Types />
       <LearnMore />
       <Help />
+      <img src={threeDots} className='threeDots'/>
       <FooterMobile />
     </div>
   )

@@ -11,12 +11,19 @@
     margin-left: 40px;
 }
 
+.cardAndDots{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .cardContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .card{

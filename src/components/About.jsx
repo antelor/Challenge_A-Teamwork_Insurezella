@@ -1,18 +1,23 @@
 import '../styles/About.css';
 import committedHelp from '../assets/committed-help.png'
+import threeDots from '../assets/three-dots-blue-20979.png'
 
 function About() {
 
   return (
     <div className='About'>
-        <div className='cardContainer'>
-            <div className='card'>
-                Health Insurance
+        <div className='cardAndDots'>
+            <div className='cardContainer'>
+                <div className='card'>
+                    Health Insurance
+                </div>
+                <div className='card'>
+                    Medicare supplement
+                </div>
             </div>
-            <div className='card'>
-                Medicare supplement
-            </div>
+            <img src={threeDots} className='threeDots'/>
         </div>
+
 
         <div className='imgContainer'>
             <img src={committedHelp} alt="Committed help image" />
