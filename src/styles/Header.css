@@ -11,13 +11,13 @@ nav{
 }
 
 .logo{
-    height: 75px;
+    height: 3.7rem;
     align-self: baseline;
     z-index: 2;
 }
 
 .hambIcon{
-    height: 20px;
+    height: 1.3rem;
 }
 
 .connect{
@@ -34,15 +34,15 @@ nav{
 
 .contact > .mail{
     display: flex;
-    gap: 1px;
+    gap: 0.1rem;
 }
 
 .contact > .call{
     display: flex;
-    margin-left: 5px;
-    gap: 1px;
+    margin-left: 0.6rem;
+    gap: 0.1rem;
 }
 
 .contact img{
-    height: 5px;
+    height: 0.4rem;
 }

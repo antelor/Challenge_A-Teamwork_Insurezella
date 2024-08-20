@@ -6,6 +6,7 @@
     width: 80%;
     justify-content: center;
     align-items: center;
+    font-size: 0.8rem;
 }
 
 .helpCardContainer{
@@ -28,8 +29,14 @@
     padding: 0.8rem;
 }
 
-.desc{
+.helpTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.helpCardText > .desc{
     margin-top: 0.5rem;
+    font-size: 0.6rem;
 }
 
 .helpCardLink{
