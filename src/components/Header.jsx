@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 import hambIcon from '../assets/Hamburger_icon_white.svg';
 import mail from '../assets/mail.png';
 import phone from '../assets/phone.png';
-import '../styles/Header.css'
+import '../styles/Header.css';
 
 function Header() {
 

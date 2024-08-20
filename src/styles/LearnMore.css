@@ -1,0 +1,7 @@
+.learnMore{
+    display: grid;
+    color: black;
+    gap: 25px;
+    width: 85%;
+    margin: 2rem 0;
+}
