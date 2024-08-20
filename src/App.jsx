@@ -4,6 +4,7 @@ import FindPlans from './components/FindPlans';
 import About from './components/About';
 import Types from './components/Types';
 import LearnMore from './components/LearnMore';
+import Help from './components/Help';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Types />
       <LearnMore />
+      <Help />
     </div>
   )
 }
