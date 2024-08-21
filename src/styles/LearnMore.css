@@ -4,3 +4,16 @@
     width: 85%;
     margin: 2rem 0;
 }
+
+/*Desktop*/
+@media screen and (min-width: 1200px)
+{
+    .learnMore{
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        grid-template-areas: 
+        'image text';
+    }
+    
+
+}
