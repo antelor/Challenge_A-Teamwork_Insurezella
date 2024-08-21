@@ -18,17 +18,17 @@ function About() {
                         Medicare supplement
                     </span>
                 </div>
-                <div className='card cardDesktop'>
+                <div className='card desktop'>
                     <span>
                         Medicare Advantage
                     </span>
                 </div>
-                <div className='card cardDesktop'>
+                <div className='card desktop'>
                     <span>
                         Life Insurance
                     </span>
                 </div>
-                <div className='card cardDesktop'>
+                <div className='card desktop'>
                     <span>
                         ACA Obamacare
                     </span>
@@ -38,7 +38,7 @@ function About() {
         </div>
 
 
-        <div className='imgContainer'>
+        <div className='aboutImgContainer'>
             <img src={committedHelp} alt="Committed help image" />
         </div>
 

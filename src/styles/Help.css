@@ -14,8 +14,20 @@
     gap: 2rem;
 }
 
-.helpCard img{
+.helpCard img, .imgContainer{
     width: 100%;
+}
+
+.helpImgContainer{
+    height: 5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpCard img{
+    height: max-content;
 }
 
 .helpCard{
@@ -42,4 +54,43 @@
     padding: 0.8rem;
     color: blue;
     font-size: 0.7rem;
+}
+
+.desktop{
+  display: none;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1200px)
+{
+    .desktop{
+        display: flex;
+    }
+
+    .Help{
+        padding-bottom: 1.5rem;
+    }
+
+    .helpCard{
+        height: 100%;
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        gap:0.6rem;
+    }
+
+    .helpCardText desc{
+        font-size: 0.8rem;
+    }
+
+    .helpCardContainer{
+        justify-items: center;
+        align-items: start;
+        width: 60%;
+    }
+
+    .helpImgContainer{
+        height: 7rem;
+    }
 }
