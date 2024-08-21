@@ -10,7 +10,7 @@ nav{
     height: 3rem;
 }
 
-.logo{
+.logoMobile{
     height: 3.7rem;
     align-self: baseline;
     z-index: 2;
@@ -45,4 +45,66 @@ nav{
 
 .contact img{
     height: 0.4rem;
+}
+
+/*Hidden elements in mobile*/
+
+
+/*Desktop*/
+@media screen and (min-width: 1200px)
+{
+    .logoMobile, .hambIcon{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-evenly;
+    }
+
+    .connect{
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    .contact{
+        font-size: 0.8rem;
+    }
+
+    .contact img{
+        height: 1rem;
+    }
+
+    .contact > .mail, .contact > .call{
+        gap: 0.5rem;
+    }
+
+    .logoDesktop{
+        height: 3rem;
+        border-radius: 10px;
+    }
+
+    .navContainer{
+        width: 100%;
+        padding: 0.5rem 0;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navDesktop{
+        background-color: white;
+        display: flex;
+        width: 100%;
+        padding: 0.5rem 5rem;
+        align-items: center;
+        
+        justify-content: space-between;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap:1rem;
+    }
 }

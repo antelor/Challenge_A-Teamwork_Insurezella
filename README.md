@@ -20,3 +20,5 @@ Mi idea en esta primera etapa no era hacer una implementacion pixel perfect, sin
 En el caso del footer, decidi para la vista mobile dividirlo en 2 secciones, por lo que cree un componente dedicado llamado FooterMobile.
 
 ![Alt text](readme-imgs/footermobile.png)
+
+Una vez terminadas todas las secciones en la vista mobile, me dispuse a implementar la version web, utilizando media queries para los cambios necesarios.
