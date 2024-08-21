@@ -7,7 +7,7 @@ function TypeCard({cardImg, cardTitle}) {
         <img src={cardImg} />
         <div className='cardInfo'>
             <div className='cardTitle'>{cardTitle}</div>
-            <div className='cardDesc'>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy</div>
+            <div className='cardDesc desc'>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy</div>
         </div> 
     </div>
   )

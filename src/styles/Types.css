@@ -7,6 +7,7 @@
 
 .typesTitle{
     margin-top: 2rem;
+    margin-bottom: 3rem;
     font-weight: 800;
 }
 
@@ -28,7 +29,7 @@
 }
 
 .typeCard img{
-    width: 40px;
+    width: 2.4rem;
 }
 
 .cardTitle{
@@ -39,6 +40,46 @@
 
 .cardDesc{
     margin-top: 0.8rem;
-    color: rgba(0, 0, 0, 0.5);
+}
 
+/*Desktop*/
+@media screen and (min-width: 1200px)
+{
+    .Types{
+        padding: 4rem 0;
+    }
+
+    .typesTitle{
+        font-size: 2.2rem;
+    }
+
+    .typesGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 4rem;
+    }
+
+    .typeCard{
+        gap: 2rem;
+    }
+
+    .cardInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .cardTitle{
+        font-size: 1.5rem;
+    }
+    
+    .cardDesc{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .typeCard img{
+        width: 5rem;
+    }
 }
