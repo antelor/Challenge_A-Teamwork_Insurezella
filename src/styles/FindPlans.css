@@ -2,6 +2,7 @@
     background-color: #E5E0E4;
     display: flex;
     flex-direction: column;
+    width: 100%;
 
     height: max-content;
     background-image: url('../assets/hero-bg.jpg');
@@ -46,7 +47,11 @@
         padding: 4rem 12rem;
         background-position-x: 60rem;
         background-size: auto 100%;
+        
+    }
 
+    .leftSection{
+        width: 50%;
     }
     
     .leftTitle{
