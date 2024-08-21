@@ -1,0 +1,58 @@
+/*Desktop*/
+@media screen and (min-width: 1200px){
+    .footerDesktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+        width: 90%;
+
+        box-shadow: 1px 4px 7px 3px rgba(51, 153, 255, 0.25);
+        -webkit-box-shadow: 1px 4px 7px 3px rgba(51, 153, 255, 0.25);
+        -moz-box-shadow: 1px 4px 7px 3px rgba(51, 153, 255, 0.25);
+        margin-bottom: 2rem;
+    }
+
+    .footerSection{
+        width: 100%;
+        padding:0;
+        margin:0;
+        height: 100%;
+        box-shadow: none;
+    }
+
+    .firstFooter, .secondFooter{
+        margin: 0;
+        padding: 0;
+    }
+
+    .footerDesktop > .blueBar{
+        bottom: 0;
+    }
+
+    .logoSectionCard{
+        margin:0;
+    }
+
+    .logoList{
+        margin:0;
+    }
+
+    .footCard{
+        padding: 2rem;
+    }
+
+    .blueBar{
+        height: 3.5rem;
+    }
+
+    .footListTitle{
+        margin-bottom: 0.9rem;
+    }
+}
