@@ -60,7 +60,7 @@
     font-size: 1.2rem;
 }
 
-.aboutText button{
+.aboutBtn{
     background-color:#003cff;
 	border-radius:28px;
     border: none;
@@ -79,4 +79,85 @@
     display: flex;
     gap: 40px;
     font-size: 0.8rem;
+}
+
+/*Hidden elements in mobile*/
+.cardDesktop{
+    display: none;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1200px)
+{
+    .About{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'card card'
+        'image text';
+        row-gap: 3rem;
+        column-gap: 0;
+        margin-bottom: 3rem;
+    }
+
+    .cardAndDots{
+        grid-area: card;
+    }
+
+    .threeDots{
+        display: none;
+    }
+
+    .cardDesktop{
+        display: flex;
+    }
+
+    .cardContainer{
+        gap: 3rem;
+    }
+
+    .card{
+        font-size: 1.5rem;
+        height: 16rem;
+        width: 15rem;
+        padding: 0.5rem;
+    }
+
+    .imgContainer{
+        grid-area: image;
+        width: fit-content;
+
+        display: flex;
+        align-items: center;
+        justify-self: flex-end;
+
+        margin-right: 4rem;
+    }
+    
+    .imgContainer img{
+        width: 90%;
+    }
+
+    .aboutText{
+        grid-area: text;
+        width: 70%;
+        justify-content:center;
+        gap:2rem;
+        justify-self: start;
+    }
+
+    .aboutTitle{
+        font-size: 2.2rem;
+    }
+
+    .aboutText .desc{
+        font-size: 1rem;
+    }
+
+    .aboutBtn{
+        font-size: 1rem;
+    }
+
+    .benefitSection{
+        font-size: 1rem;
+    }
 }

@@ -9,10 +9,29 @@ function About() {
         <div className='cardAndDots'>
             <div className='cardContainer'>
                 <div className='card'>
-                    Health Insurance
+                    <span>
+                        Health Insurance
+                    </span>
                 </div>
                 <div className='card'>
-                    Medicare supplement
+                    <span>
+                        Medicare supplement
+                    </span>
+                </div>
+                <div className='card cardDesktop'>
+                    <span>
+                        Medicare Advantage
+                    </span>
+                </div>
+                <div className='card cardDesktop'>
+                    <span>
+                        Life Insurance
+                    </span>
+                </div>
+                <div className='card cardDesktop'>
+                    <span>
+                        ACA Obamacare
+                    </span>
                 </div>
             </div>
             <img src={threeDots} className='threeDots'/>
@@ -26,7 +45,7 @@ function About() {
         <div className='aboutText'>
             <div className='aboutTitle'>Commited to help you find the right plan</div>
             <div className='desc'>Insurance is an important financial tool that can help you protect yourself and your loved ones from financial losses in the event of an unexpected event. It is important to consider your individual needs and circumstances when choosing the right insurance coverage for you and your family.</div>
-            <button>ABOUT INSURELLA</button>
+            <button className='aboutBtn'>ABOUT INSURELLA</button>
             <div className='benefitSection'>
                 <div className='benefitCard'>
                     <div>
