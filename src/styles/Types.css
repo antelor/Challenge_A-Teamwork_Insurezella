@@ -1,5 +1,5 @@
 .Types{
-    background-color: rgba(238, 238, 238, 0.647);
+    background-color: #e7f6ff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,7 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
     font-weight: 800;
+    color:#243140;
 }
 
 .typesGrid{
@@ -33,7 +34,7 @@
 }
 
 .cardTitle{
-    color:blue;
+    color:#4582f8;
     font-size: 0.8rem;
     font-weight: bold;
 }
@@ -67,7 +68,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.3rem;
     }
 
     .cardTitle{

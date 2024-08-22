@@ -52,9 +52,22 @@
 
 .helpCardLink{
     padding: 0.8rem;
-    color: blue;
+    color: #015DFA;
     font-size: 0.7rem;
+    display: flex;
+    align-items: center;
 }
+
+/*Coloring help card link logos*/
+/*https://codepen.io/sosuke/pen/Pjoqqp*/
+
+.helpCardLink > img{
+    filter: invert(29%) sepia(96%) saturate(4808%) hue-rotate(213deg) brightness(97%) contrast(107%);
+    height: 1.5rem;
+    width: auto;
+    margin-left: 0.5rem;
+}
+
 
 .desktop{
   display: none;
@@ -66,9 +79,9 @@
     .desktop{
         display: flex;
     }
-
+    
     .Help{
-        padding-bottom: 1.5rem;
+        padding-bottom: 3rem;
     }
 
     .helpCard{
@@ -76,12 +89,22 @@
         width: 90%;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 1.5rem;
-        gap:0.6rem;
+        font-size: 1.3rem;
+        gap:0.2rem;
     }
 
-    .helpCardText desc{
-        font-size: 0.8rem;
+    .helpTitle{
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .helpCardText{
+        padding: 2rem;
+    }
+
+    .helpCardText .desc{
+        font-size: 1rem;
+        margin-top: 1.5rem;
     }
 
     .helpCardContainer{
@@ -91,6 +114,11 @@
     }
 
     .helpImgContainer{
-        height: 7rem;
+        height: 9rem;
     }
+
+    .helpCardLink{
+        font-size: 1rem;
+        padding: 0 2rem;
+    }    
 }

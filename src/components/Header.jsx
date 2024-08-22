@@ -2,6 +2,8 @@ import logo from '../assets/logo.png';
 import hambIcon from '../assets/Hamburger_icon_white.svg';
 import mail from '../assets/mail.png';
 import phone from '../assets/phone.png';
+import arrow from '../assets/icons8-flecha-30.png';
+import line from '../assets/icons8-linea-vertical-50.png';
 import '../styles/Header.css';
 
 function Header() {
@@ -30,11 +32,17 @@ function Header() {
           <img src={logo} className="logoDesktop" alt="Insurezella logo" />
           <ul>
             <li>Home</li>
+            <li><img src={line}/></li>
             <li>Find Insurance</li>
+            <li><img src={line}/></li>
             <li>Learn</li>
+            <li><img src={line}/></li>
             <li>About</li>
           </ul>
-          <button className='callBtn'>Call Us Now</button>
+          <button className='callBtn'>
+            <span>Call Us Now</span>
+            <img src={arrow}/>
+          </button>
         </div>
       </div>
     </>

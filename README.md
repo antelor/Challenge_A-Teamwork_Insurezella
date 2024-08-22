@@ -26,3 +26,5 @@ Para esto cree una branch aparte llamada desktopView.
 Todos las adaptaciones a desktop las realice utilizando media queries de la siguiente manera
 
 ![Media query](readme-imgs/mediaquery.png)
+
+Una vez realizados todos los cambios en la desktopView, mergee con main y me dispuse a arreglar los detalles mas finos (colores, estileado de botones, etc.)

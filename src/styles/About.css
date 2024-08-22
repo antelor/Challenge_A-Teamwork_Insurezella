@@ -62,16 +62,16 @@
 }
 
 .aboutBtn{
-    background-color:#003cff;
+    background-color:#3154fe;
 	border-radius:28px;
     border: none;
 	cursor:pointer;
 	color:#ffffff;
-	padding:0.4rem 2rem;
+	padding:0.8rem 3.5rem;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #0077ff;
     width: fit-content;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 0.6rem;
 }
 

@@ -17,7 +17,7 @@ function FooterDesktop() {
     <div className='footerDesktop'>
         <div className='footerContainer'>
             <div className='footerSection firstFooter'>
-                <div className='footCard desc'>
+                <div className='footCard'>
                     <div className='logoSectionCard'>
                         <img src={logo} className='footLogo'/>
                         <div className='desc'>

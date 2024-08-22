@@ -3,6 +3,7 @@ import doctor from '../assets/doctor.jpg';
 import familyTogether from '../assets/family-together.jpg';
 import appointment from '../assets/medical-appointment.jpg';
 import sign from '../assets/man-signing.jpg';
+import longArrow from '../assets/icons8-flecha-derecha-larga-50.png';
 
 function Help() {
 
@@ -23,7 +24,12 @@ function Help() {
 
               </div>
 
-              <div className='helpCardLink'>Compare plans</div>
+              <div className='helpCardLink'>
+                <span>
+                  Compare plans
+                </span>
+                <img src={longArrow} />
+                </div>
             </div>
 
             <div className='helpCard'>
@@ -37,7 +43,10 @@ function Help() {
                 </div>        
               </div>  
 
-              <div className='helpCardLink'>Compare plans</div>
+              <div className='helpCardLink'>
+                <span>Compare plans</span>
+                <img src={longArrow} />
+              </div>
             </div>
 
             <div className='helpCard desktop'>
@@ -51,7 +60,10 @@ function Help() {
                 </div>        
               </div>  
 
-              <div className='helpCardLink'>View plans</div>
+              <div className='helpCardLink'>
+                <span>View plans</span>
+                <img src={longArrow} />
+              </div>
             </div>
 
             <div className='helpCard desktop'>
@@ -65,7 +77,10 @@ function Help() {
                 </div>        
               </div>  
 
-              <div className='helpCardLink'>View plans</div>
+              <div className='helpCardLink'>
+                <span>View plans</span>
+                <img src={longArrow}/>
+              </div>
             </div>
         </div>
     </div>

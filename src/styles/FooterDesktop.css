@@ -8,7 +8,7 @@
 
     .footerContainer{
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         margin-bottom: 3rem;
         width: 90%;
@@ -30,6 +30,7 @@
     .firstFooter, .secondFooter{
         margin: 0;
         padding: 0;
+        gap:0;
     }
 
     .footerDesktop > .blueBar{
@@ -46,6 +47,8 @@
 
     .footCard{
         padding: 2rem;
+        height: auto;
+        justify-content: space-between;
     }
 
     .blueBar{
@@ -54,5 +57,9 @@
 
     .footListTitle{
         margin-bottom: 0.9rem;
+    }
+
+    .footList, .footCard .desc{
+        font-size: 1rem;
     }
 }

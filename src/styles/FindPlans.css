@@ -28,12 +28,12 @@
 .findPlansBtn{
     width: fit-content;
     border-radius:25px;
-    background-color: #63beff;
+    background-color: #5cb8ff;
     border: none;
 	cursor:pointer;
 	color:#ffffff;
     font-size: 0.6rem;
-    padding: 0.7rem 1.3rem;
+    padding: 0.7rem 2.2rem;
     font-weight: 900;
     text-align: center;
 }
