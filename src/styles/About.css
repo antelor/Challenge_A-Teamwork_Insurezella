@@ -75,6 +75,10 @@
     font-size: 0.6rem;
 }
 
+.aboutBtn:hover{
+    background-color: #2845d7;
+}
+
 .benefitSection{
     font-weight: bold;
     display: flex;

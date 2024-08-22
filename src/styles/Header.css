@@ -138,6 +138,10 @@ nav{
         display: flex;
     }
 
+    .callBtn:hover{
+        background-color:#2a48e0;
+    }
+
     .callBtn > img{
         height: 1rem;
         margin-left: 0.5rem;
