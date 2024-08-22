@@ -6,6 +6,9 @@ React 18.3.1
 Vite 5.4.1
 CSS
 
+Como ejecutar localmente:
+Descargar el repositorio y utilizar el comando "npm run dev"
+
 Paso a paso:
 Lo primero que hice fue crear un proyecto base con Vite. Decidi dividir el diseño en distintas secciones y trabajarlas por separado, cada una en su propio componente de React. Asi fui trabajando un primer boceto de todas las partes. Las secciones que elegi con su nomenclatura correspondiente fueron:
 
