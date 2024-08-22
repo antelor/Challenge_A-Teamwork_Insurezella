@@ -1,6 +1,7 @@
 import '../styles/About.css';
 import committedHelp from '../assets/committed-help.png'
 import threeDots from '../assets/three-dots-blue-20979.png'
+import shortTerm from '../assets/short-term-icon.png';
 
 function About() {
 
@@ -9,28 +10,33 @@ function About() {
         <div className='cardAndDots'>
             <div className='cardContainer'>
                 <div className='card'>
+                    <img src={shortTerm} />
                     <span>
-                        Health Insurance
+                        Health<br/>Insurance
                     </span>
                 </div>
                 <div className='card'>
+                    <img src={shortTerm} />
                     <span>
-                        Medicare supplement
+                        Medicare<br/>supplement
                     </span>
                 </div>
                 <div className='card desktop'>
+                    <img src={shortTerm} />
                     <span>
-                        Medicare Advantage
+                        Medicare<br/>Advantage
                     </span>
                 </div>
                 <div className='card desktop'>
+                    <img src={shortTerm} />
                     <span>
-                        Life Insurance
+                        Life<br/>Insurance
                     </span>
                 </div>
                 <div className='card desktop'>
+                    <img src={shortTerm} />
                     <span>
-                        ACA Obamacare
+                        ACA<br/>Obamacare
                     </span>
                 </div>
             </div>
@@ -48,14 +54,23 @@ function About() {
             <button className='aboutBtn'>ABOUT INSURELLA</button>
             <div className='benefitSection'>
                 <div className='benefitCard'>
+                    <img src={shortTerm}/>
                     <div>
-                        Save Money
-                    </div>
-                    <div>
-                        Compare Plans
+                        <div>
+                            Save Money
+                        </div>
+                        <div>
+                            Compare Plans
+                        </div>
                     </div>
                 </div>
-                <div className='benefitCard'>Licensed Agents</div>
+                <div className='benefitCard'>
+                    <img src={shortTerm} />
+                    <div>
+                        <div>Licensed</div>
+                        <div>Agents</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

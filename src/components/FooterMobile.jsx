@@ -35,11 +35,26 @@ function FooterMobile() {
                     Services
                 </div>
                 <div className='footList desc'>
-                    <div className='clickableItem'>Health Insurance</div>
-                    <div className='clickableItem'>Life Insurance</div>
-                    <div className='clickableItem'>Medicare Supplement</div>
-                    <div className='clickableItem'>Medicare Advantage</div>
-                    <div className='clickableItem'>(ACA)Obamacare</div>
+                    <div className='clickableItem'>
+                        <img src={email}/> 
+                        <span>Health Insurance</span>
+                    </div>
+                    <div className='clickableItem'>
+                        <img src={email}/> 
+                        <span>Life Insurance</span>
+                    </div>
+                    <div className='clickableItem'>
+                        <img src={email}/> 
+                        <span>Medicare Supplement</span>
+                    </div>
+                    <div className='clickableItem'>
+                        <img src={email}/> 
+                        <span>Medicare Advantage</span>
+                    </div>
+                    <div className='clickableItem'>
+                        <img src={email}/> 
+                        <span>(ACA)Obamacare</span>
+                    </div>
                 </div>
             </div>
         </div>
