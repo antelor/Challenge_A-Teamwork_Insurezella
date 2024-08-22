@@ -33,6 +33,10 @@
     flex-direction: column;
 }
 
+.footCard.desc{
+    margin-left: 1rem;
+}
+
 .footList{
     display: flex;
     flex-direction: column;
@@ -42,6 +46,7 @@
 .footListTitle{
     font-weight: bold;
     color: darkblue;
+    margin-bottom: 1rem;
 }
 
 .footList img{

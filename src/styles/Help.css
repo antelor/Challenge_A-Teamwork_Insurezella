@@ -43,6 +43,7 @@
 .helpTitle{
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 1rem 0;
 }
 
 .helpCardText > .desc{
@@ -58,6 +59,10 @@
     align-items: center;
 }
 
+.threeDots{
+    margin: 1rem 0;
+}
+
 /*Coloring help card link logos*/
 /*https://codepen.io/sosuke/pen/Pjoqqp*/
 
@@ -67,7 +72,6 @@
     width: auto;
     margin-left: 0.5rem;
 }
-
 
 .desktop{
   display: none;
