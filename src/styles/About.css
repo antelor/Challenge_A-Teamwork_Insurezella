@@ -95,7 +95,7 @@
         'card card'
         'image text';
         row-gap: 3rem;
-        column-gap: 0;
+        column-gap: 5rem;
         margin-bottom: 3rem;
     }
 
@@ -122,21 +122,17 @@
         padding: 0.5rem;
     }
 
-    .imgContainer{
-        grid-area: image;
-        width: fit-content;
-
+    .aboutImgContainer{
         display: flex;
-        align-items: center;
-        justify-self: flex-end;
+        justify-content: flex-end;
+    }
 
-        margin-right: 4rem;
+    .aboutImgContainer > img{
+        width: auto;
+        margin-left: 2rem;
+        max-width: none;
     }
     
-    .imgContainer img{
-        width: 90%;
-        max-width: max-content;
-    }
 
     .aboutText{
         grid-area: text;

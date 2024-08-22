@@ -104,6 +104,10 @@ nav{
         justify-content: space-between;
     }
 
+    li:hover{
+        font-weight: bold;
+    }
+
     li > img{
         height: 0.5rem;
     }
