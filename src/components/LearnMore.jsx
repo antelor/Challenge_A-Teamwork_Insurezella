@@ -7,7 +7,7 @@ function LearnMore() {
 
   return (
     <div className='learnMore'>
-        <div className='imgContainer'>
+        <div className='aboutImgContainer'>
             <img src={protecting} />
         </div>
 
