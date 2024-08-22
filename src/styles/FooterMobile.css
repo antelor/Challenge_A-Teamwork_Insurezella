@@ -89,6 +89,7 @@
     position: absolute;
     z-index: 0;
     bottom: 12rem;
+    color: black;
 }
 
 /*Coloring footer logos*/
