@@ -17,7 +17,9 @@ nav{
 }
 
 .hambIcon{
-    height: 70%;
+    height: auto;
+    max-height: 80%;
+    margin: 0 1rem;
 }
 
 .connect{
