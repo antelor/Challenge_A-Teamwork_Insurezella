@@ -95,4 +95,14 @@
 /*https://codepen.io/sosuke/pen/Pjoqqp*/
 .logoList img, .footList img{
     filter: invert(8%) sepia(73%) saturate(6744%) hue-rotate(241deg) brightness(84%) contrast(136%);
+    cursor: pointer;
+}
+
+.clickableItem{
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.clickableItem:hover{
+    font-weight: bold;
 }

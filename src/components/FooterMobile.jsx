@@ -35,11 +35,11 @@ function FooterMobile() {
                     Services
                 </div>
                 <div className='footList desc'>
-                    <div>Health Insurance</div>
-                    <div>Life Insurance</div>
-                    <div>Medicare Supplement</div>
-                    <div>Medicare Advantage</div>
-                    <div>(ACA)Obamacare</div>
+                    <div className='clickableItem'>Health Insurance</div>
+                    <div className='clickableItem'>Life Insurance</div>
+                    <div className='clickableItem'>Medicare Supplement</div>
+                    <div className='clickableItem'>Medicare Advantage</div>
+                    <div className='clickableItem'>(ACA)Obamacare</div>
                 </div>
             </div>
         </div>
@@ -52,11 +52,11 @@ function FooterMobile() {
                     Company
                 </div>
                 <div className='footList desc'>
-                    <div>About Us</div>
-                    <div>Careers</div>
-                    <div>Industry news</div>
-                    <div>Privacy Policy</div>
-                    <div>Terms & Conditions</div>
+                    <div className='clickableItem'>About Us</div>
+                    <div className='clickableItem'>Careers</div>
+                    <div className='clickableItem'>Industry news</div>
+                    <div className='clickableItem'>Privacy Policy</div>
+                    <div className='clickableItem'>Terms & Conditions</div>
                 </div>
             </div>
             <div className='footCard'>
