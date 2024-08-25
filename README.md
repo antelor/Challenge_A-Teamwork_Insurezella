@@ -1,10 +1,17 @@
 # a-teamwork-challenge
+Live en: https://steady-pegasus-4555c8.netlify.app
+
 
 Tecnologias utilizadas:
+
 Javascript
+
 React 18.3.1
+
 Vite 5.4.1
+
 CSS
+
 
 Como ejecutar localmente:
 Descargar el repositorio y utilizar los comandos 
